@@ -14,7 +14,7 @@
 
 ## Multi-precursor example
 
-For a 10 g target of BaTi0.96Nb0.04O3, using cation precursor coefficient ratios BaCO3:1, TiO2:0.96 and Nb2O5:0.02, each at 99% purity, the planner reports each precursor mass separately. These ratios are user-supplied and must be checked against the intended balanced reaction and defect chemistry.
+For a 10 g target of BaTi0.96Nb0.04O3, using cation precursor coefficient ratios BaCO3:1, TiO2:0.96 and Nb2O5:0.02, each at 99% purity, the planner reports each precursor mass separately. These ratios are user-supplied and must be checked against the intended balanced reaction and defect chemistry. Using the application's embedded atomic weights, the independent reference weighings are BaCO3 = 8.482323 g, TiO2 = 3.295630 g and Nb2O5 = 0.228511 g (total = 12.006464 g).
 
 ## Scope and assumptions
 
