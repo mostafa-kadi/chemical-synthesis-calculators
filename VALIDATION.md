@@ -5,7 +5,7 @@
 | Calculator | Reference inputs | Expected result |
 |---|---|---:|
 | Molecular weight | BaTi0.96Nb0.04O3 | 234.992560 g mol⁻¹ |
-| Stoichiometric batch (product moles) | 10 g BaTiO3; M = 233.192 g mol⁻¹ (atomic-weight table dependent) | approximately 0.042883 mol |
+| Stoichiometric batch (product moles) | 10 g BaTiO3; M = 233.191 g mol⁻¹ (atomic-weight table dependent) | approximately 0.042883 mol |
 | Precursor mass | 10 g BaTiO3 target; BaCO3 precursor; coefficient ratio 1; purity 99% | 8.547855 g |
 | Doping concentration | 0.96 host-site mol + 0.04 dopant-site mol | 4.000000% |
 | Molarity | 0.1 mol in 0.5 L | 0.200000 mol L⁻¹ |
