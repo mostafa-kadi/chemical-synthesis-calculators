@@ -12,6 +12,10 @@
 | Dilution | 1.0 mol L⁻¹ stock to 0.2 mol L⁻¹; final volume 0.5 L | 0.1 L stock |
 | Oxygen deficiency | m0 = 1.000 g; m1 = 0.990 g; Mformula = 200 g mol⁻¹ | δ = 0.125008 |
 
+## Multi-precursor example
+
+For a 10 g target of BaTi0.96Nb0.04O3, using cation precursor coefficient ratios BaCO3:1, TiO2:0.96 and Nb2O5:0.02, each at 99% purity, the planner reports each precursor mass separately. These ratios are user-supplied and must be checked against the intended balanced reaction and defect chemistry.
+
 ## Scope and assumptions
 
 - Formula parser supports the listed element symbols, decimal occupancies and nested parentheses. It does not currently support hydrate dot notation, charge states, isotope notation, or every element in the periodic table.
