@@ -1,6 +1,6 @@
 # Chemical Synthesis Calculators
 
-Six browser-based tools: molecular weight, target formula-unit amount for batch planning, precursor mass using a user-supplied balanced-reaction coefficient ratio, dopant fraction on a selected sublattice, molarity and dilution, and oxygen non-stoichiometry from mass loss.
+Seven browser-based tools: molecular weight, target product amount, a three-precursor batch planner, single-precursor mass, dopant fraction on a selected sublattice, molarity and dilution, and oxygen non-stoichiometry from mass loss.
 
 ## Scientific conventions
 - Formula parser supports common elements, decimal occupancies and parentheses; supported atomic weights are listed in `app.js`.
