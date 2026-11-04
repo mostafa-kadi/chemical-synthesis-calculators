@@ -1,22 +1,11 @@
 # Chemical Synthesis Calculators
 
-A browser-based scientific calculator suite for chemical formula mass, ceramic precursor calculations, stoichiometry and solution preparation.
+Six browser-based tools: molecular weight, target formula-unit amount for batch planning, precursor mass using a user-supplied balanced-reaction coefficient ratio, dopant fraction on a selected sublattice, molarity and dilution, and oxygen non-stoichiometry from mass loss.
 
-## Available now
-- **Molecular weight:** calculate formula molar mass for supported elements, decimal occupancies and nested parentheses (for example `BaTi0.96Nb0.04O3` and `Ca3(PO4)2`).
+## Scientific conventions
+- Formula parser supports common elements, decimal occupancies and parentheses; supported atomic weights are listed in `app.js`.
+- Precursor mass requires the correct balanced-reaction coefficient ratio and precursor purity.
+- Oxygen δ mass method assumes all measured mass loss is oxygen.
+- Doping fraction is defined on the supplied sublattice.
 
-## Planned tools
-- Stoichiometric batch calculator
-- Precursor mass calculator
-- Doping concentration calculator
-- Molarity and dilution calculator
-- Oxygen non-stoichiometry calculator
-
-## Run locally
-Open `index.html` in a modern browser. No build step, backend or external JavaScript dependency is required.
-
-## Static hosting
-For Cloudflare Pages, use the repository root as the project root and leave the build command empty.
-
-## Scientific note
-Check chemical formula conventions, atomic weights, oxidation-state assumptions and units before using calculated values in experimental work or publications.
+Open `index.html` directly or deploy the repository root as a static site. No backend or external dependencies.
